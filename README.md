@@ -104,7 +104,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📸 Screenshots
 
-_Add screenshots to `assets/screens/` and reference them here:_
+![Onboarding](assets/screens/onboarding.png)
+![Homepage](assets/screens/home.png)
+![Event Home](assets/screens/eventhome.png)
 
 ```markdown
 ![Onboarding](assets/screens/onboarding.png)
