@@ -35,7 +35,7 @@ graph TD
     B --> C[Accept T&C Checkbox]
     C --> D{Authenticated?}
     D -- Yes --> E[Go to HomePage]
-    D -- No --> F[Redirect to Login or Signup (Future)]
+    D -- No --> F[Redirect to Login or Signup Future]
 ```
 
 ---
