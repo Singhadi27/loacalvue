@@ -1,4 +1,3 @@
-
 <h1 align="center">
   LocalVue 📍
 </h1>
@@ -7,7 +6,7 @@
   <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"/>
   <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white"/>
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge"/>
-  <img src="https://img.shields.io/github/issues/Singhadi27/loacalvue?style=for-the-badge"/>
+  <img src="https://img.shields.io/github/issues/Singhadi27/localvue?style=for-the-badge"/>
 </p>
 
 <p align="center">
@@ -34,7 +33,7 @@ graph TD
     B --> C[Accept T&C Checkbox]
     C --> D{Authenticated?}
     D -- Yes --> E[Go to HomePage]
-    D -- No --> F[Redirect to Login/Signup (Future)]
+    D -- No --> F[Redirect to Login or Signup (Future)]
 ```
 
 ---
@@ -59,8 +58,8 @@ localvue/
 ## 🛠️ Installation
 
 ```bash
-git clone https://github.com/Singhadi27/loacalvue.git
-cd loacalvue
+git clone https://github.com/Singhadi27/localvue.git
+cd localvue
 flutter pub get
 flutter run
 ```
@@ -107,11 +106,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ![Onboarding](assets/screens/onboarding.png)
 ![Homepage](assets/screens/home.png)
 ![Event Home](assets/screens/eventhome.png)
-
-```markdown
-![Onboarding](assets/screens/onboarding.png)
-![Homepage](assets/screens/home.png)
-```
 
 ---
 
