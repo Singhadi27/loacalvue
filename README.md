@@ -36,10 +36,13 @@ graph TD
     C --> D{Authenticated?}
     D -- Yes --> E[Go to HomePage]
     D -- No --> F[Redirect to Login or Signup - Future]
-    E --> G[View Local Events]
-    G --> H[Click Event for Details]
-    H --> I[See Event Details & Gallery]
-    I --> J[Book Event Ticket]
+    E --> G[Select Event Category (Music, Comedy, etc.)]
+    E --> L[Log Out]
+    L --> F
+    G --> H[View Local Events]
+    H --> I[Click Event for Details]
+    I --> J[See Event Details & Gallery]
+    J --> K[Book Event Ticket]
 ```
 
 ---
