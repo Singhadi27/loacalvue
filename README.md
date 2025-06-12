@@ -36,7 +36,7 @@ graph TD
     C --> D{Authenticated?}
     D -- Yes --> E[Go to HomePage]
     D -- No --> F[Redirect to Login or Signup - Future]
-    E --> G[Select Event Category (Music, Comedy, etc.)]
+    E --> G[Select Event Category: Music, Comedy, etc.]
     E --> L[Log Out]
     L --> F
     G --> H[View Local Events]
